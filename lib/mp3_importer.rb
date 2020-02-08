@@ -6,8 +6,7 @@ attr_reader :path
   @path = path
  end
  
-de
-
+def
   @files ||=  Dir.glob("#{path}/*.mp3").collect do |file|
     file.gsub("#{path}/",'')
  #binding.pry
